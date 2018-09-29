@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.xt.qrcode">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application>
+        <activity android:name=".QRCodeScanActivity"
+            android:theme="@style/Theme.notAnimation"/>
+    </application>
+</manifest>
