@@ -26,5 +26,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation project(':qrcode')
-    implementation 'com.github.zxrmmxt:MCommonUtils:1.0'
+    implementation 'com.github.zxrmmxt:MCommonUtils:v1.0.0'
 }
